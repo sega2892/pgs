@@ -1,0 +1,27 @@
+{
+    "name": "sega/packetDemo",
+    "description": "simple Laravel calc",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Sergey Atapin",
+            "email": "79094602174@ya.ru"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^8.28",
+        "illuminate/routing": "^8.28"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laravel\\Calc\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laravrl\\Calc\\CalcServicesProvider"
+            ]
+        }
+    }
+}
