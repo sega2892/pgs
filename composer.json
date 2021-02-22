@@ -1,5 +1,5 @@
 {
-    "name": "sega/packetDemo",
+    "name": "sega/packet-demo",
     "description": "simple Laravel calc",
     "type": "library",
     "authors": [
