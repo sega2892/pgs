@@ -20,7 +20,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Laravrl\\Calc\\CalcServicesProvider"
+                "Laravel\\Calc\\CalcServicesProvider"
             ]
         }
     }
